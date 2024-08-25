@@ -5,9 +5,9 @@ import matplotlib.font_manager as fm
 import matplotlib.dates as mdates
 
 # 한글 폰트 설정
-font_path = '/System/Library/Fonts/Supplemental/AppleGothic.ttf'  # MacOS의 경우
-fontprop = fm.FontProperties(fname=font_path)
-plt.rcParams['font.family'] = fontprop.get_name()
+# font_path = '/System/Library/Fonts/Supplemental/AppleGothic.ttf'  # MacOS의 경우
+# fontprop = fm.FontProperties(fname=font_path)
+# plt.rcParams['font.family'] = fontprop.get_name()
 
 # CSV 파일 읽기
 df = pd.read_csv('weather_Korean.csv', encoding='utf-8-sig')
